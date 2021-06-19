@@ -19,7 +19,7 @@ componentDidMount() {
   render() {
     return (
       <div className='main'>
-        <h2>{this.state.counter}</h2>
+        <h2>{this.state.counter} seconds</h2>
         <button onClick={this.handleShow}>{this.state.showState ? 'Hide' : 'Show'}</button>
         { this.state.showState ?
           (<div>
